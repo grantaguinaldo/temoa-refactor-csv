@@ -1,0 +1,14 @@
+name: temoa-mini-py3
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    # Requirements for core model functionality
+    - python=3.7.3
+    - pyomo=5.5
+    - pyutilib=5.8
+    - glpk
+    - pandas
+    - ipython
+    - coincbc
+
